@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.searchcont {
+  background-color: lightgray;
+  /* height: 900px; */
+}
+
+.search-text {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.current-weather {
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.test {
+  font-size: bold;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.fivetext {
+  font-size: bold;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.fiveday {
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* .row {
+} */
