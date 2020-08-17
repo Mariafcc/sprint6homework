@@ -80,6 +80,7 @@ $(document).ready(function () {
         var uvDis = $("<p>").addClass("card-text").text(`Uv index ${uv}`);
         $(".test .card-body").append(uvDis);
 
+        //uv color change
         if (response.value < 11 && response.value > 7) {
           uvDis.css("color", "red");
         } else if (response.value < 7 && response.value > 5) {
