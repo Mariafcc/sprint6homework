@@ -81,6 +81,12 @@ $(document).ready(function () {
         $(".test .card-body").append(uvDis);
 
         if (response.value < 11 && response.value > 7) {
+          uvDis.css("color", "red");
+        } else if (response.value < 7 && response.value > 5) {
+          uvDis.css("color", "orange");
+        } else if (response.value < 5 && response.value > 2) {
+          uvDis.css("color", "yellow");
+        } else if (response.value >= 11) {
           uvDis.css("color", "purple");
         }
       },
